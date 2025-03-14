@@ -9,7 +9,7 @@
 <body>
     <header>
         <img src="../static/logo.png" alt="Logo do site" class="logo">
-        <h1>🐾Esse gato sou eu</h1>
+        <h1>Esse gato sou eu</h1>
     </header>
     <main>
         <div class="container">
@@ -22,7 +22,7 @@
             </div>
             <div class="gato">
                 {% if not url_imagem %}
-                    <img src="" alt="" />
+                    <img src="static/gato1.jpg" alt="" />
                 {% else %}
                     <img src="{{url_imagem}}" />
                     <p>{{ nome }}</p>
